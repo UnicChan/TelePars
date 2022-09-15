@@ -1,0 +1,29 @@
+ќЅя«ј“≈Ћ№Ќќ:
+1. указать параметры vk.token, telegram.bot.id, limit, timer, path
+актуальный vk.token - vk1.a.eBmOmCwSgLQH7pWnq9SY-kOAv-BJ_w284wNZ-xtWGqO4M1Bw-yNap_iGmz14rg4WOoq6l5tLznvWREvdWZMZf2VZF-YCw5Hxrb03pO4WU-ExLKeRNQ-B1v6GFXgK199O5xpDPNTt5TcwwJ_qkfoGgZHGD__4dZJzaoCMc-eBciXAdJ51Lxw6XVfByHvLc5GG
+
+=====LOW_BOT=========
+
++---//name//
+|   |
+|   +---groups_processors
+|   |   |---2send.txt {None}
+|   |   |---chat__id.txt {'0'}
+|   |   |---monitor_timer.txt {None}
+|   |   |---notifications.txt {on}
+|   |   |---notifications_count.txt {10}
+|   |
+|   +---images
+|   |
+|   +---publicks
+|   |   |---new_publick.txt {None}
+|   |   |---publicks.txt {None}
+|   |
+|   |bot.py {subprocess = monitor, subprocess = monitor4new_publick}
+|   |
+|   |monitor.py
+|   |
+|   |monitor4new_publick.py
+|   |
+|   |params.py {my_token, bot_id, limit, timer, path}
+|   |
